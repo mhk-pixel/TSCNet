@@ -1,0 +1,4 @@
+Dataset,Total Subjects,Correct (TP+TN),Acc (%),Sens (%),Spec (%),Prec (%),F1-Score (%)
+Dataset 1,65,56,86.15,83.33,89.66,90.91,86.96
+Dataset 2,67,67,100.0,100.0,100.0,100.0,100.0
+Combined (Pooled),132,123,93.18,91.55,95.08,95.59,93.53

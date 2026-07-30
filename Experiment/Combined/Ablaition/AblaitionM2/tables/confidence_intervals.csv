@@ -1,0 +1,8 @@
+Metric,Mean,CI_Lower,CI_Upper
+Accuracy,0.9085,0.8570,0.9601
+Roc Auc,0.9707,0.9396,1.0000
+Sensitivity,0.8867,0.8299,0.9434
+Specificity,0.9333,0.8722,0.9944
+Precision,0.9416,0.8859,0.9973
+Recall,0.8867,0.8299,0.9434
+F1 Score,0.9126,0.8628,0.9623

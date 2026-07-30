@@ -1,0 +1,69 @@
+{
+    "experiment_info": {
+        "experiment_name": "ApplaitionM3",
+        "execution_timestamp": "2026-07-30 18:33:11",
+        "device_used": "cuda"
+    },
+    "best_fold_performance": {
+        "best_fold_number": 3,
+        "accuracy": 0.9629629629629629,
+        "f1_score": 0.9655172413793104,
+        "roc_auc": 0.9722222222222221,
+        "sensitivity": 0.9333333333333333,
+        "specificity": 1.0,
+        "precision": 1.0
+    },
+    "configuration_and_hyperparameters": {
+        "dataset_path": "/teamspace/studios/this_studio/phdResearch/data12/",
+        "models_path": "/teamspace/studios/this_studio/Phd/Models",
+        "output_dir": "/teamspace/studios/this_studio/Phd/experiment/Combined/results",
+        "CrossDataset": "off",
+        "traindataset": "",
+        "testdataset": "",
+        "device": "cuda",
+        "num_workers": 4,
+        "model_choice": 3,
+        "model_params": {
+            "n_channels": 19,
+            "n_time_points": 640,
+            "n_classes": 2,
+            "dropout_rate": 0.3
+        },
+        "k_folds": 5,
+        "random_state": 42,
+        "fold_strategy": "manual132",
+        "strategy": "crossvalidation",
+        "val_split": 0.0,
+        "stratify_columns": [
+            "Group"
+        ],
+        "groups": [
+            "HC",
+            "AD"
+        ],
+        "class_names": [
+            "HC",
+            "AD"
+        ],
+        "segments_per_subject": null,
+        "normalization": "winsor_zscore",
+        "norm_level": "per_channel",
+        "params": {
+            "batch_size": 16,
+            "learning_rate": 0.0001,
+            "epochs": 30,
+            "patience": 10
+        },
+        "evaluation": {
+            "aggregation_mode": "majority",
+            "confidence_filter": 0.7,
+            "save_segment_csv": "segment_predictions.csv",
+            "validate_like_test": false
+        },
+        "save_models": true,
+        "save_best_only": true,
+        "save_all_folds": false,
+        "experiment_name": "ApplaitionM3",
+        "save_config": true
+    }
+}

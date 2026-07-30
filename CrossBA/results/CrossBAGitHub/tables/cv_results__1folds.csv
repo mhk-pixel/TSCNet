@@ -1,0 +1,4 @@
+Fold,Accuracy,Roc Auc,Sensitivity,Specificity,Precision,Recall,F1 Score
+1,0.8462,0.9128,0.7778,0.9310,0.9333,0.7778,0.8485
+Mean,0.8462,0.9128,0.7778,0.9310,0.9333,0.7778,0.8485
+Std,,,,,,,

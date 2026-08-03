@@ -1,0 +1,4 @@
+Dataset,AD,HC,Correct/All,Acc,Sens,Spec
+AHEPA,35,26,61,0.9385,0.9722,0.8966
+BrainLat,35,32,67,1.0,1.0,1.0
+combined,70,58,128,0.9697,0.9859,0.9508

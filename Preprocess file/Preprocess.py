@@ -1,3 +1,6 @@
+# Author: Majid Hameed Khalaf
+# Date: 2026 
+#=============================
 import os
 import mne
 import numpy as np
